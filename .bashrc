@@ -135,5 +135,5 @@ export PATH="$PATH:/usr/games"
 PS1="\[${CYAN}\]\u\[${GRAY}\]@\[${GREEN}\]\h\[${GRAY}\]:\[${BROWN}\]\w\[${GRAY}\] » \[${GRAY}\]"
 
 echo -e "\n"
-cowsay "Welcome $(whoami)! This is Li-Pang Huang's Termifolio! Please make yourself at home. Please use 'cat' to check Li-Pang bio."
+cowsay "Welcome $(whoami)! This is Li-Pang Huang's Termifolio! Please make yourself at home and use 'cat' to check Li-Pang's bio."
 echo -e "\n"

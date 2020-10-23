@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  termifolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:8001"
+      - "443:8001"
+    restart: always
