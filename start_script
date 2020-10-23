@@ -1,0 +1,2 @@
+docker build -t terminal-portfolio .
+docker run -it --rm -h huanglipang-termifolio -p 80:8001 -p 443:8001 terminal-portfolio
