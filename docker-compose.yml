@@ -9,3 +9,8 @@ services:
       - "443:8001"
     restart: always
     hostname: huanglipang-termifolio
+    deploy:
+      resources:
+        limits:
+          cpus: '0.2'
+          memory: 50M
