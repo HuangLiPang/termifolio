@@ -6,16 +6,14 @@ RUN chmod +x /sbin/tini
 
 RUN apt-get update && apt-get install -y libwebsockets-dev libjson-c-dev fortune cowsay
 
-ADD huanglipang /home/huanglipang
-
 RUN useradd -ms /bin/bash adventurer
-RUN chown -R root /home/adventurer
+ADD bin /bin
+ADD huanglipang /home/adventurer
+RUN chown -R root /home/adventurer && chmod 744 /tmp
 USER adventurer
-WORKDIR /home/huanglipang
-
-COPY .bashrc /home/adventurer/.bashrc
+WORKDIR /home/adventurer
 
 EXPOSE 8001
 
 ENTRYPOINT ["/sbin/tini", "--"]
-CMD ["ttyd", "-t", "titleFixed='Li-Pang Huang's Termiforlio'", "-t", "fontSize=15", "-p", "8001", "bash"]
+CMD ["ttyd", "-t", "titleFixed=huanglipang-termifolio", "-t", "fontSize=15", "-p", "8001", "bash"]
