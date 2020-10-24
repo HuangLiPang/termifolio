@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y libwebsockets-dev libjson-c-dev fortune
 ADD huanglipang /home/huanglipang
 
 RUN useradd -ms /bin/bash adventurer
+RUN chown -R root /home/adventurer
 USER adventurer
 WORKDIR /home/huanglipang
 
@@ -17,4 +18,4 @@ COPY .bashrc /home/adventurer/.bashrc
 EXPOSE 8001
 
 ENTRYPOINT ["/sbin/tini", "--"]
-CMD ["ttyd", "-p", "8001", "bash"]
+CMD ["ttyd", "-t", "titleFixed='Li-Pang Huang's Termiforlio'", "-t", "fontSize=15", "-p", "8001", "bash"]
