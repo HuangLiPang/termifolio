@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y libwebsockets-dev libjson-c-dev fortune
 RUN useradd -ms /bin/bash adventurer
 ADD bin /bin
 ADD huanglipang /home/adventurer
-RUN chown -R root /home/adventurer && chmod 744 /tmp
+RUN chown -R root /home/adventurer && chmod 755 /tmp
 USER adventurer
 WORKDIR /home/adventurer
 
