@@ -8,3 +8,4 @@ services:
       - "80:8001"
       - "443:8001"
     restart: always
+    hostname: huanglipang-termifolio
