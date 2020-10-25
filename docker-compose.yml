@@ -4,6 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    init: true
     ports:
       - "80:8001"
       - "443:8001"
