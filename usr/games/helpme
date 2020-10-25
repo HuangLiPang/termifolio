@@ -1,0 +1,21 @@
+#!/bin/bash
+
+cowsay -f hellokitty "Hi $(whoami)!
+
+I am Kitty.
+I am here to guide you for Li-Pang's termifolio.
+
+If you want to check his self introduction, please type 'cat about'.
+
+If you want to check his experience, please type 'cat timeline'.
+
+If you want to contact him, please type 'cat contact'.
+
+You can type 'helpme', I will show up again for you!
+
+You can also find some secret commands here.
+
+Go adventure!
+
+"
+echo -e "\n"

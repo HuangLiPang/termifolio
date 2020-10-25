@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cowsay -f stegosaurus "Hello $(whoami)! I am stegosaurus, not the bad dragon."
+echo -e "\n"

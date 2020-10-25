@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cowsay -f www "Hello $(whoami)!
+
+Thank you for visiting Li-Pang's termifolio.
+Recently, a dragon showed up and destroyed lots of properties here.
+I hope someone can help me to beat the dragon."
+echo -e "\n"

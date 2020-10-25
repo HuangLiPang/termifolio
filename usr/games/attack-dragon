@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cowsay -f dragon-and-cow "Try harder!"
+echo -e "\n"

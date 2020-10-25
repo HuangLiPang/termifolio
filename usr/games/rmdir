@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cowsay "I want to keep this."
+echo -e "\n"

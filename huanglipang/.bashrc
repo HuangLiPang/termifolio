@@ -130,10 +130,19 @@ BLINK='\e[5m'
 UNDERLINE='\e[4m'
 
 export TERM=xterm-256color
-export PATH="$PATH:/usr/games"
+export PATH="/usr/games:$PATH"
 
 PS1="\[${CYAN}\]\u\[${GRAY}\]@\[${GREEN}\]\h\[${GRAY}\]:\[${BROWN}\]\w\[${GRAY}\] » \[${GRAY}\]"
 
 echo -e "\n"
-cowsay "Welcome $(whoami)! This is Li-Pang Huang's Termifolio! Please make yourself at home and use 'cat' to check Li-Pang's bio."
+cowsay "Welcome $(whoami)!
+
+This is Li-Pang Huang's termifolio!
+Please make yourself at home.
+
+You can use 'cat' to check Li-Pang's bio or
+you can also use 'helpme' to ask for help.
+
+Go go!
+"
 echo -e "\n"

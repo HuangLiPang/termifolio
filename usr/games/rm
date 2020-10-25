@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cowsay -f daemon "Please don't do this."
+echo -e "\n"

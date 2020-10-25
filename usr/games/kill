@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cowsay -f cower "No! No! No!"
+echo -e "\n"

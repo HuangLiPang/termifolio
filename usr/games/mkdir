@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cowsay -f three-eyes "Don't leave your trash here. I am watching you!"
+echo -e "\n"

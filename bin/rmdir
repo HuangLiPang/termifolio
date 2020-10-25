@@ -1,3 +1,0 @@
-#!/bin/bash
-
-cowsay -f tux "I want to keep this."

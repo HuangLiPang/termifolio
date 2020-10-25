@@ -1,3 +1,0 @@
-#!/bin/bash
-
-cowsay -f tux "Don't leave your trash here."

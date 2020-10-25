@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cowsay -f dragon "You find me, $(whoami)! Do you dare to challenge me?"
+echo -e "\n"
