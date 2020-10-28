@@ -8,9 +8,11 @@ I am here to guide you for Li-Pang's termifolio.
 You can use 'ls' to see the file list in the directory.
 You can also use 'cat' to print the file content.
 
-For example, If you want to check his self-introduction, please type 'cat about'.
+For example, you can type 'cat about' to check his self-introduction.
 
 If you want to check his experience, please type 'cat experience'.
+
+If you want to contact him, please type 'cat contact'.
 
 You can type 'helpme' and I will show up again for you!
 

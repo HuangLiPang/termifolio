@@ -5,8 +5,9 @@ cowsay "Welcome $(whoami)!
 This is Li-Pang Huang's termifolio!
 Please make yourself at home.
 
-You can use 'cat' to check Li-Pang's bio or
-you can also use 'helpme' to ask for help.
+You can use 'cat about' to check Li-Pang's bio.
+
+For more instructions, you can use 'helpme' to get the detail.
 
 If you want to see me again, please use 'welcome'.
 
