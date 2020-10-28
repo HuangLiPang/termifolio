@@ -134,15 +134,4 @@ export PATH="/usr/games:$PATH"
 
 PS1="\[${CYAN}\]\u\[${GRAY}\]@\[${GREEN}\]\h\[${GRAY}\]:\[${BROWN}\]\w\[${GRAY}\] » \[${GRAY}\]"
 
-echo -e "\n"
-cowsay "Welcome $(whoami)!
-
-This is Li-Pang Huang's termifolio!
-Please make yourself at home.
-
-You can use 'cat' to check Li-Pang's bio or
-you can also use 'helpme' to ask for help.
-
-Go go!
-"
-echo -e "\n"
+/usr/games/welcome

@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cowsay -f dragon-and-cow "Try harder!"
+cowsay -f dragon-and-cow "You cannot beat me. Try harder!"
 echo -e "\n"

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cowsay "Welcome $(whoami)!
+
+This is Li-Pang Huang's termifolio!
+Please make yourself at home.
+
+You can use 'cat' to check Li-Pang's bio or
+you can also use 'helpme' to ask for help.
+
+If you want to see me again, please use 'welcome'.
+
+Go go!
+"
+echo -e "\n"

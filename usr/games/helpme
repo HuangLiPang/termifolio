@@ -5,15 +5,18 @@ cowsay -f hellokitty "Hi $(whoami)!
 I am Kitty.
 I am here to guide you for Li-Pang's termifolio.
 
-If you want to check his self introduction, please type 'cat about'.
+You can use 'ls' to see the file list in the directory.
+You can also use 'cat' to print the file content.
 
-If you want to check his experience, please type 'cat timeline'.
+For example, If you want to check his self-introduction, please type 'cat about'.
 
-If you want to contact him, please type 'cat contact'.
+If you want to check his experience, please type 'cat experience'.
 
 You can type 'helpme' and I will show up again for you!
 
 You can also find some secret commands here.
+
+Tips: you can try 'hello'.
 
 Go adventure!
 
