@@ -3,16 +3,18 @@
 2. On the Edge - A distributed gateway platform:
     - https://github.com/nabeeln7/on-the-edge
 
-3. Severless Linebot Reminder:
+3. Info Page - Built on Cloudflare Worker: https://info.huanglipang.me
+
+4. Severless Linebot Reminder:
     - https://github.com/HuangLiPang/serverless-linebot-reminder-heroku-scheduler
 
-4. PM 2.5 Data Visualization
+5. PM 2.5 Data Visualization
     - PM 2.5 Inverse Distance Weighting (IDW) Map:
         - https://pm25.lass-net.org/GIS/IDW/
     - PM 2.5 Voronoi Map:
         - https://pm25.lass-net.org/GIS/voronoi/
 
-5. Route Reference:
+6. Route Reference:
     - https://route.robodock.net/
 
 For more information, please check his GitHub: https://github.com/HuangLiPang
