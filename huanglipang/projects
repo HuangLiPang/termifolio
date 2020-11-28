@@ -1,28 +1,47 @@
 1. Termifolio:
+    - Description:
+        Web terminal portforlio.
     - https://github.com/HuangLiPang/termifolio
 
 2. On the Edge - A distributed gateway platform:
+    - Description:
+        A distributed IoT platform with data privcay policy.
     - https://github.com/nabeeln7/on-the-edge
 
 3. Url Shortener:
+    - Description:
+        A url shortener hosted on heroku and mongodb altas.
     - https://url-shortener.huanglipang.me/
 
-4. Serverless Info Page - Built on Cloudflare Worker:
+4. Search Million Rows:
+    - Description:
+        A demo for searching strings from 2 million rows in just few seconds.
+    - https://search-million-rows.huanglipang.me/
+
+5. Serverless Info Page:
+    - Description:
+        A static web page hosted on cloudflare worker.
     - https://info.huanglipang.me
 
-5. Severless Linebot Reminder - Built on Heroku:
+6. Severless Line Bot Reminder:
+    - Description:
+        A line bot reminder hosted on heroku with scheduler add-on.
     - https://github.com/HuangLiPang/serverless-linebot-reminder-heroku-scheduler
 
-6. PM 2.5 Data Visualization
+7. PM 2.5 Data Visualization
     - PM 2.5 Inverse Distance Weighting (IDW) Map:
         - https://pm25.lass-net.org/GIS/IDW/
     - PM 2.5 Voronoi Map:
         - https://pm25.lass-net.org/GIS/voronoi/
 
-7. Route Reference - Fleet monitor web application:
+8. Route Reference:
+    - Description:
+        A fleet monitor web application.
     - https://route.robodock.net/
 
-8. Linebot Echoer - Fleet infomation chatbot:
+9. Linebot Echoer:
+    - Description:
+        A chatbot for querying fleet information.
     - https://line.me/R/ti/p/nocrvlaXsY/
 
 For more information, please check his GitHub: https://github.com/HuangLiPang
